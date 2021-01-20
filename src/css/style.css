@@ -56,6 +56,7 @@ img {
 }
 
 .section-title {
+  text-align: center;
   font-size: 24px;
   font-family: 'Museo Sans Bold', sans-serif;
 }
@@ -70,6 +71,10 @@ img {
   padding: 20px 26px;
   font-size: 15px;
   border-radius: 10px;
+}
+
+.arrows__lift:hover, .arrows__right:hover {
+  cursor: pointer;
 }
 
 .navbar {
@@ -288,6 +293,7 @@ img {
   max-width: 360px;
   line-height: 35px;
   margin-bottom: 24px;
+  text-align: left;
 }
 
 .offer__subtitle {
@@ -368,5 +374,28 @@ img {
   font-size: 25px;
   padding-right: 7px;
   cursor: pointer;
+}
+
+.portfolio {
+  background: #f5f5f5 url("../img/bg-p.jpg") repeat-y left;
+  background-size: 50%;
+}
+
+.portfolio__title {
+  max-width: 550px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.portfolio__arrows {
+  max-width: 150px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 70px;
 }
 /*# sourceMappingURL=style.css.map */
